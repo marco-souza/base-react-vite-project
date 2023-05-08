@@ -1,7 +1,7 @@
-import reactLogo from "./assets/react.svg";
+import reactLogo from "@/assets/react.svg";
 import viteLogo from "/vite.svg";
 
-function App() {
+export default function Home() {
   return (
     <>
       <div className="flex mx-auto my-12 justify-center gap-4">
@@ -29,9 +29,9 @@ function App() {
           />
         </a>
       </div>
-      <h1 className="text-3xl text-center">Vite + React</h1>
+
+      <h1 className="text-3xl text-center">Welcome Home! 🏡</h1>
     </>
   );
 }
 
-export default App;
