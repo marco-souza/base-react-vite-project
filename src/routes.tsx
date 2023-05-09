@@ -12,7 +12,14 @@ const router = createBrowserRouter([
 
 export function Routes() {
   return (
-    <RouterProvider router={router} />
+    <>
+      <p className="justify-center flex gap-4 m-8">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/not-found">404</a>
+      </p>
+      <RouterProvider router={router} />
+    </>
   );
 }
 
